@@ -1,5 +1,5 @@
 import { formatDate } from '../../helpers/formatDate';
-import styles from '../Header/styles.module.css';
+import styles from './styles.module.css';
 
 function Header() {
   return (
