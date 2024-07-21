@@ -9,7 +9,6 @@
 .pageNumber,
 .arrow {
   border: none;
-  cursor: pointer;
   background-color: white;
 }
 .pageNumber:disabled,
