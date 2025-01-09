@@ -4,8 +4,37 @@
   padding: 12px 24px;
   background-color: #fff;
   border-bottom: #f2f4f5 1px solid;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.swichTheme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day,
+.night {
+  font-size: 40px;
+}
+
+.day {
+  color: yellow;
+}
+
+.dark {
+  background-color: #23272f;
+  border-bottom: 1px solid rgb(60, 60, 60);
+}
+
+.light {
+  background-color: white;
 }
 
 .title {
