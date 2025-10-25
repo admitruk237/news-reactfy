@@ -1,6 +1,5 @@
 .banners {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   width: 100%;
   gap: 12px;
   box-sizing: border-box;
@@ -9,5 +8,6 @@
   .banners {
     max-height: 1200px;
     overflow-y: auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
