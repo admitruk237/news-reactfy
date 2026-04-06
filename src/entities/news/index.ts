@@ -1,0 +1,5 @@
+export type { NewsApiResponse, INews } from './model/types'
+export { NewsBanner } from './ui/NewsBanner/NewsBanner'
+export { NewsItem } from './ui/NewsItem/NewsItem'
+export { newsApi, useGetNewsQuery, useGetLatestNewsQuery } from './api/newsApi'
+export { newsReducer, setNews, setFilters } from './model/newsSlice'

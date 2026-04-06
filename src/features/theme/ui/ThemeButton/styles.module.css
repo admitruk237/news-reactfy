@@ -1,0 +1,18 @@
+.switchTheme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day,
+.night {
+  font-size: 40px;
+}
+
+.day {
+  color: yellow;
+}
+
+.night {
+  color: rgb(100, 100, 100);
+}
